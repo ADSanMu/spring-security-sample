@@ -1,0 +1,16 @@
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{layout}">
+<head>
+<title>index</title>
+</head>
+<body>
+	<form name="f" th:action="@{/login}" method="post">
+		<fieldset>
+			<div class="form-actions">
+				<button type="submit" class="btn">click</button>
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>
